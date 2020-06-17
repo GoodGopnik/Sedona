@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --black: #000000;
+    --liteBlack: #333333;
+    --wite: #FFFFFF;
+    --blue: #81B3D2;
+    --gray: #EEEEEE;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
 }
