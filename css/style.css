@@ -6,7 +6,7 @@
 
 :root {
     --black: #000000;
-    --liteBlack: #333333;
+    --lightBlack: #333333;
     --wite: #FFFFFF;
     --blue: #81B3D2;
     --gray: #EEEEEE;
@@ -14,4 +14,39 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.Box-1 {
+    background: var(--wite);
+    min-height: 70px;
+}
+.meny {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 26px;
+    text-decoration: none;
+    color: var(--black);
+    margin: 0 50px;
+}
+nav a:hover {
+    color: var(--gray);
+}
+.nav li {
+    max-width: auto;
 }
