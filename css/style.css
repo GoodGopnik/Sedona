@@ -3,7 +3,6 @@
 *::after {
     box-sizing: border-box;
 }
-
 :root {
     --black: #000000;
     --lightBlack: #333333;
@@ -11,7 +10,6 @@
     --blue: #81B3D2;
     --gray: #EEEEEE;
 }
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,34 +17,41 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-.Box-1 {
-    background: var(--wite);
-    min-height: 70px;
+.container {
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-.meny {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+.headerMenu {
+    background-color: var(--wite);
+    max-width: 1050px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
-nav ul {
+li {
     list-style: none;
+}
+.headerMenu ul {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     margin: 0;
     padding: 0;
 }
-nav a {
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 26px;
+.headerMenu a {
     text-decoration: none;
     color: var(--black);
-    margin: 0 50px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 26px;
 }
-nav a:hover {
-    color: var(--gray);
+.headerMenu a:hover {
+    color: var(--blue);
 }
-.nav li {
-    max-width: auto;
+.headerMenu .logo {
+    max-width: 140px;
+    max-height: 70px;
+  }
+.headerMenu ul li:not(.logo) {
+    padding: 15px;
 }
+/* ------------------welcome---------------------------- */
