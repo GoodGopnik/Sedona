@@ -1,10 +1,27 @@
-@media(max-width:900px) {
+@media(max-width: 900px) {
     .headerMenu ul {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0;
-        padding: 0;
+        padding-top: 50px;
     }
-
+    .logo {
+        display: block;
+        position: absolute;
+    }
+    .logo img {
+        position: relative;
+    }
+    .headerMenu ul li {
+        text-align: center;
+    }
 }
+/* @media(max-width: 500px) {
+    .Text-1 {
+        text-align: start;
+        font-size: 20px;
+    }
+    .Text-3 {
+        font-size: 20px;
+    }
+} */
