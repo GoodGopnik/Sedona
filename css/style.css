@@ -134,3 +134,28 @@ li {
     margin-top: 64px;
 }
 /* ------------------Welcome city---------------------------- */
+.Welcome-city {
+    background: var(--wite);
+    min-height: 215px;
+    padding: 42px 0 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.City-box {
+    display: flex;
+    max-width: 480px;
+    font-size: 21px;
+    font-family: 'Open sans';
+    font-weight: bold;
+    line-height: 26px;
+    padding-bottom: 30px;
+    color: var(--black);
+}
+.city-text p {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open sans';
+    line-height: 26px;
+    color: var(--lightBlack);
+}
