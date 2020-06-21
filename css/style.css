@@ -159,3 +159,49 @@ li {
     line-height: 26px;
     color: var(--lightBlack);
 }
+/* ------------------City---------------------------- */
+.City {
+    min-height: 256px;
+}
+.City-container {
+    display: flex;
+    justify-content: space-between;
+}
+.City-1 {
+    text-align: center;
+    max-width: 400px;
+    background: var(--lighblue);
+    width: 100%;
+}
+.City-1 h2 {
+    font-size: 21px;
+    line-height: 21px;
+    font-family: 'Open sans';
+    text-transform: uppercase;
+    color: var(--wite);
+    padding: 0;
+    margin: 0;
+    padding-top: 47px;
+}
+.City-1 .nome {
+    font-size: 14px;
+    font-family: 'Open sans';
+    font-weight: normal;
+    line-height: 21px;
+    color: var(--wite);
+    padding: 0;
+    margin: 0;
+    padding-top: 25px;
+}
+.City-1 p {
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Open sans';
+    line-height: 21px;
+    color: var(--wite);
+    padding-top: 23px;
+}
+.City-img {
+    width: 800px;
+    background: url(../img/city/image-2.jpg);
+}
