@@ -203,5 +203,6 @@ li {
 }
 .City-img {
     width: 800px;
-    background: url(../img/city/image-2.jpg);
+    background: url(../img/city/image-2.jpg) center;
 }
+/* ------------------service---------------------------- */
