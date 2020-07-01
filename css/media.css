@@ -16,12 +16,16 @@
         text-align: center;
     }
 }
-/* @media(max-width: 500px) {
-    .Text-1 {
-        text-align: start;
-        font-size: 20px;
+@media(max-width: 800px) {
+    .service-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .Text-3 {
-        font-size: 20px;
+    .home-1 {
+        margin-bottom: 50px;
     }
-} */
+    .eat-1 {
+        margin-bottom: 50px;
+    }
+}
