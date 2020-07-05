@@ -166,12 +166,13 @@ li {
 .City-container {
     display: flex;
     justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
 }
 .City-1 {
     text-align: center;
-    max-width: 400px;
+    width: 400px;
     background: var(--lighblue);
-    width: 100%;
 }
 .City-1 h2 {
     font-size: 21px;
@@ -203,7 +204,11 @@ li {
 }
 .City-img {
     width: 800px;
-    background: url(../img/city/image-2.jpg) center;
+    height: 256px;
+}
+.City-img img {
+    width: 100%;
+    height: 100%;
 }
 /* ------------------service---------------------------- */
 .sevice {
@@ -272,7 +277,7 @@ li {
     line-height: 21px;
     color: var(--black);
     text-transform: uppercase;
-    padding-bottom: 25px;
+    padding-bottom: 21px;
 }
 .souvenirs p {
     font-size: 14px;
@@ -280,4 +285,95 @@ li {
     line-height: 21px;
     color: var(--lightBlack);
     text-transform: uppercase;
+}
+/* ------------------bredge---------------------------- */
+.bridge {
+    min-height: 256px;
+}
+.bridge-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0 auto;
+}
+.img-bridge {
+    max-width: 800px;
+    max-height: 256px;
+    width: 100%;
+}
+.bridg-text {
+    width: 400px;
+    text-align: center;
+    background: var(--lighblue);
+}
+.bridg-text h2 {
+    padding: 0;
+    margin: 0;
+    font-size: 21px;
+    font-family: 'Open sans';
+    text-transform: uppercase;
+    color: var(--wite);
+    line-height: 21px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.bridg-text .nome {
+    font-size: 14px;
+    font-family: 'Open sans';
+    font-weight: normal;
+    line-height: 21px;
+    color: var(--wite);
+    padding-bottom: 10px;
+}
+.bridg-text p {
+    font-size: 14px;
+    font-family: 'Open sans';
+    font-weight: normal;
+    line-height: 21px;
+    color: var(--wite);
+}
+/* ------------------service-block---------------------------- */
+.service-block {
+    min-height: 256px;
+    background: var(--gray);
+}
+.service-about {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 47px;
+    padding-bottom: 54px;
+    text-align: center;
+}
+.service-about h2 {
+    padding: 0;
+    margin: 0 auto;
+    font-size: 21px;
+    line-height: 21px;
+    font-family: 'Open sans';
+    color: var(--black);
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    width: 119px;
+    display: flex;
+    align-items: center;
+}
+.service-about span {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Open sans';
+    color: var(--black);
+}
+.service-about p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Open sans';
+    color: var(--black);
+    padding-top: 23px;
+    text-transform: uppercase;
+    width: 285px;
 }

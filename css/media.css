@@ -28,4 +28,21 @@
     .eat-1 {
         margin-bottom: 50px;
     }
+    .City-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .City-1 {
+        width: 1200px;
+    }
+    .City-img {
+        width: 800px;
+        height: 256px;
+    }
+    .City-img img {
+        width: 100%;
+        height: 100%;
+        padding-right: 15px;
+        border: 1px solid red;
+    }
 }
