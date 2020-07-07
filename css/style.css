@@ -418,4 +418,51 @@ li {
     margin: 0;
 }
 /* ------------------fut---------------------------- */
-
+.box-fut {
+    display: flex;
+    justify-content: space-between;
+}
+.nombe-fut h2 {
+    font-size: 21px;
+    line-height: 26px;
+    font-family: 'Open sans';
+    text-transform: uppercase;
+    color: var(--black);
+}
+.soc-fut {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.soc-fut img {
+    padding: 13px 14px;
+}
+.tvit {
+    width: 46px;
+    height: 48px;
+    background: var(--blue);
+    margin-right: 5px;
+}
+.fac {
+    width: 46px;
+    height: 48px;
+    background: var(--blue);
+    margin-right: 5px;
+}
+.yt {
+    width: 46px;
+    height: 48px;
+    background: var(--blue);
+}
+.razrab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.razrab h2 {
+    margin-right: 8px;
+}
+.razrab img {
+    width: 115px;
+    height: 41px;
+}
