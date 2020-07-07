@@ -402,21 +402,20 @@ li {
 .button-box {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    border: 1px solid red;
     align-items: center;
 }
 .ink {
     width: 568px;
     height: 86px;
     background: #766357;
-    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
     font-family: 'Open sans';
     color: var(--wite);
+    font-size: 21px;
+    padding: 0;
+    margin: 0;
 }
-.bt-s li {
-    display: none;
-}
-.bt-s li:active {
-    display: block;
-}
+/* ------------------fut---------------------------- */
+
