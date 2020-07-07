@@ -377,3 +377,46 @@ li {
     text-transform: uppercase;
     width: 285px;
 }
+/* ------------------button---------------------------- */
+.about-button {
+    min-height: 288px;
+}
+.service-button h2 {
+    font-size: 30px;
+    font-family: 'Open sans';
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+    padding: 60px 0 40px;
+}
+.service-button p {
+    font-size: 14px;
+    font-family: 'Open sans';
+    line-height: 24px;
+    text-transform: uppercase;
+    color: var(--black);
+    text-align: center;
+    margin-bottom: 40px;
+}
+.button-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 1px solid red;
+    align-items: center;
+}
+.ink {
+    width: 568px;
+    height: 86px;
+    background: #766357;
+    font-size: 21px;
+    font-family: 'Open sans';
+    color: var(--wite);
+}
+.bt-s li {
+    display: none;
+}
+.bt-s li:active {
+    display: block;
+}
