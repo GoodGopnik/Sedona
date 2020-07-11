@@ -22,13 +22,13 @@ body {
 }
 .container {
     max-width: 1200px;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin: 0 auto;
 }
 .headerMenu {
+    /* align-items: center; */
     background-color: var(--wite);
-    max-width: 1050px;
-    padding: 0 15px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 li {
@@ -56,26 +56,36 @@ li {
     max-width: 140px;
     height: 70px;
     position: absolute;
-}
+} 
 .logo img {
+    text-align: center;
     right: 85px;
     position: relative;
 }
 .headerMenu ul li:not(.logo) {
     padding: 15px;
+    margin: 0;
 }
 /* ------------------welcome---------------------------- */
 .welcome {
-    background: url(../img/welcome/background\ photo22222222.jpg) center/cover no-repeat;
     min-height: 590px;
-    margin-top: -20px;
     padding: 0;
     margin: 0;
     display: flex;
     align-items: center;
+    max-width: 1200px;
+}
+.welcome-img {
+    max-width: 1200px;
+    background: url(../img/welcome/background\ photo22222222.jpg)center/cover no-repeat;
+    width: 100%;
+    margin-top: -80px;
+}
+.Welcome-text {
+    text-align: center;
+    align-items: center;
 }
 .Text-1 {
-    text-align: center;
     text-transform: uppercase;
     font-size: 50px;
     font-family: 'Anton';
@@ -112,7 +122,7 @@ li {
     margin-bottom: 3px;
     margin-right: 12px;
 }
-.Text-3 {
+h1 {
     text-align: center;
     font-size: 94px;
     font-family: 'Open Sans';
@@ -124,25 +134,27 @@ li {
 }
 .width-Text-4 {
     max-width: 500px;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
 }
 .Text-4 {
     text-align: center;
     font-size: 53px;
     font-family:'Dancing Script';
     color: var(--wite);
-    padding: 0;
-    margin: 0;
-    margin-top: 64px;
+    margin-top: 10px;
 }
 /* ------------------Welcome city---------------------------- */
 .Welcome-city {
     background: var(--wite);
+    max-width: 1200px;
     min-height: 215px;
     padding: 42px 0 50px;
     text-align: center;
 }
 .city-text {
-    width: 800px;
+    max-width: 800px;
     font-family: 'Open sans';
     line-height: 26px;
     color: var(--black);
@@ -165,11 +177,12 @@ li {
     justify-content: space-between;
     padding: 0;
     margin: 0 auto;
+    max-width: 1200px;
 }
 .City-1 {
     text-align: center;
-    width: 400px;
     background: var(--lighblue);
+    flex-grow: 1;
 }
 .City-1 h2 {
     font-size: 21px;
@@ -201,7 +214,7 @@ li {
     padding-top: 23px;
 }
 .City-img {
-    width: 800px;
+    max-width: 1200px;
     height: 256px;
 }
 .City-img img {
@@ -213,13 +226,15 @@ li {
     min-height: 300px;
     background: var(--wite);
     padding: 60px 0 80px;
+    max-width: 1200px;
 }
 .service-container {
     display: flex;
     justify-content: space-around;
+    max-width: 1200px;
 }
 .home-1 {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 .home-1 img {
@@ -241,7 +256,7 @@ li {
     text-transform: uppercase;
 }
 .eat-1 {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 .eat-1 img {
@@ -263,7 +278,7 @@ li {
     text-transform: uppercase;
 }
 .souvenirs {
-    width: 300px;
+    max-width: 300px;
     text-align: center;
 }
 .souvenirs img {
@@ -295,12 +310,14 @@ li {
     margin: 0 auto;
 }
 .img-bridge {
-    max-width: 800px;
     max-height: 256px;
+}
+.img-bridge img {
     width: 100%;
+    height: 100%;
 }
 .bridg-text {
-    width: 400px;
+    flex-grow: 1;
     text-align: center;
     background: var(--lighblue);
 }
@@ -341,7 +358,6 @@ li {
     display: flex;
     justify-content: space-between;
     padding-top: 47px;
-    padding-bottom: 54px;
     text-align: center;
 }
 .service-about h2 {
@@ -366,18 +382,17 @@ li {
     color: var(--black);
 }
 .service-about p {
-    padding: 0;
-    margin: 0;
     font-size: 14px;
     line-height: 21px;
     font-family: 'Open sans';
     color: var(--black);
     padding-top: 23px;
     text-transform: uppercase;
-    width: 285px;
+    max-width: 285px;
 }
 /* ------------------button---------------------------- */
 .about-button {
+    max-width: 1200px;
     min-height: 288px;
 }
 .service-button h2 {
@@ -399,12 +414,13 @@ li {
     margin-bottom: 40px;
 }
 .button-box {
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .ink {
-    width: 568px;
+    max-width: 568px;
     height: 86px;
     background: #766357;
     text-transform: uppercase;
@@ -415,6 +431,10 @@ li {
     font-size: 21px;
     padding: 0;
     margin: 0;
+}
+/* ------------------map---------------------------- */
+iframe {
+    width: 100%;
 }
 /* ------------------fut---------------------------- */
 .box-fut {
