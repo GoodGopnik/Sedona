@@ -49,6 +49,29 @@
         text-align: center;
     }
 }
+@media(max-width: 600px) {
+    .wrap-myMenu .main-myButton {
+        padding: 30px 50px;
+        font-size: 15px;
+    }
+    .unit-conta .title {
+        width: 100px;
+    }
+    .unit-conta .fak {
+        width: 300px;
+    }
+    .unit-conta .vak {
+        width: 300px;
+    }
+    .content .max-batton {
+        padding: 16px 50px;
+    }
+    .content .unit-conta {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+}
 @media(max-width: 500px) {
     .Welcome-text h1 {
         font-size: 60px;

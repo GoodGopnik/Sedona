@@ -428,32 +428,109 @@ h1 {
     color: var(--wite);
     font-size: 21px;
 }
-
-
-
-
-
-
 /* ////////////////////////////////////////// */
 .wrap-myMenu {
     text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.block-content {
+    display: flex;
+    margin: 0 auto;
+    display: none;
+    max-width: 575px;
+}
+.main-myButton {
+    max-width: 575px;
+    padding: 30px 125px;
+    background: #766357;
+    font-size: 21px;
+    font-family: 'Open sans';
+    color: var(--wite);
+    text-transform: uppercase;
 }
 .content {
-    display: none;
+    display: inline-block;
+    max-width: 575px;
+    flex-grow: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+.unit-conta {
+    display: flex;
+}
+.title {
+    width: 102px;
+    color: var(--black);
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-right: 20px;
+    display: flex;
+    align-items: flex-end;
   }
-
-
-
+.desc {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--black);
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+.fak {
+    width: 300px;
+    font-family: 'Open sans';
+}
+.vak {
+    width: 65px;
+    font-family: 'Open sans';
+}
+.bable {
+    width: 102px;
+    color: var(--black);
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+.bable-1 {
+    width: 20px;
+    color: var(--black);
+    margin-top: 60px;
+    margin-left: 55px;
+    margin-right: 20px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-end;
+}
+.max-batton {
+    margin: 0 auto;
+    max-width: 458px;
+    padding: 16px 180px;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: var(--wite);
+    font-family: 'Open sans';
+    background: var(--lighblue);
+}
+.text-data {
+    font-size: 14px;
+    color: var(--black);
+    text-transform: uppercase;
+    font-family: 'Open sans';
+    font-weight: bold;
+}
+.text-nomber {
+    font-size: 14px;
+    color: var(--black);
+    text-transform: uppercase;
+    font-family: 'Open sans';
+    font-weight: bold;
+}
 /* ////////////////////////////////////////// */
-
-
-
-
-
-
-
-
-
 /* ------------------map---------------------------- */
 iframe {
     width: 100%;
